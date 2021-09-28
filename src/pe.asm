@@ -1,5 +1,3 @@
-; generated using version 0.0.6
-
 %ifndef ps_login_pe_inc
 %define ps_login_pe_inc
 
