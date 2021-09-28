@@ -26,6 +26,10 @@ va_section  .rdata
 ; Include mutable data
 va_section  .data
 
+; Patch: Disable version check by default.
+va_org      0x44D488
+db          00
+
 ; Include custom code.
 va_section  .teos
 %include    "src/sql.asm"
